@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const {User, validate} = require('../../../models/user');
+const {User, validateUser} = require('../../../models/user');
 const config = require('config');
 const mongoose = require('mongoose');
 
@@ -16,6 +16,7 @@ describe ('user.generateAuthToken', () => {
         };
 
         const user = new User(payload);
+        validateUser(user);
         const token = user.generateAuthToken();
         const decoded = jwt.verify(token, config.get('jwtPrivateKey'));
         

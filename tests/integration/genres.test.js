@@ -10,7 +10,7 @@ describe('/api/genres', () => {
     beforeEach( () => { server = require('../../index');  });
     afterEach(async () => { 
         await Genre.remove({});
-        server.close();
+        await server.close();
     });
 
     describe('GET /', () => {
@@ -155,7 +155,6 @@ describe('/api/genres', () => {
         });
         it('should return 404 if id is invalid', async () => {
             id = 1;
-            console.log(genre);
       
             const res = await exec();
       

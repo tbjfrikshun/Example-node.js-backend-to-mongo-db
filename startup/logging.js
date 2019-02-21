@@ -1,5 +1,5 @@
 const winston = require('winston');
-// require('winston-mongodb');
+require('winston-mongodb');
 require('express-async-errors');
 
 module.exports = function() {
@@ -32,6 +32,6 @@ module.exports = function() {
     };
     
     winston.add(winston.transports.File, options.fileInfo);
-    // winston.add(winston.transports.MongoDB, options.mongoDB);
+    winston.add(winston.transports.MongoDB, options.mongoDB);
     winston.info('Completed logging startup successfully.');   
 }
