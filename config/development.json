@@ -1,6 +1,4 @@
 {
-    "name": "Vidly App - Development",
-    "mail": {
-        "host": "dev-mail-server"
-    }
+    "jwtPrivateKey" : "",
+    "db": "mongodb://localhost/vidly_dev"
 }

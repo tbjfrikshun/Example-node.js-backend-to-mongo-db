@@ -4102,3 +4102,10 @@
 {"level":"info","message":"Completed startup for helmet and compression.","timestamp":"2019-02-21T17:38:35.292Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-02-21T17:38:35.296Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2019-02-21T17:38:35.339Z"}
+{"level":"info","message":"Completed logging startup successfully.","timestamp":"2019-02-21T17:59:18.600Z"}
+{"level":"info","message":"Completed config startup.","timestamp":"2019-02-21T17:59:18.726Z"}
+{"level":"info","message":"Completed startup for routes.","timestamp":"2019-02-21T17:59:22.085Z"}
+{"level":"info","message":"Completed started for validation.","timestamp":"2019-02-21T17:59:22.156Z"}
+{"level":"info","message":"Completed startup for helmet and compression.","timestamp":"2019-02-21T17:59:22.552Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-02-21T17:59:22.568Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2019-02-21T17:59:22.691Z"}
